@@ -1,0 +1,19 @@
+{
+  "name": "cnn-mars-scraper",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Scrapes current mars news from cnn",
+  "keywords": ["mars", "scraper", "news", "cnn"],
+  "dependencies": {
+    "request": "latest",
+    "cheerio": "latest",
+    "url": "latest"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "author": "Louis Novick",
+  "license": ""
+}
